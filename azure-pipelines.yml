@@ -7,7 +7,7 @@ trigger:
 - master
 
 variables:
-  uiSource: 'my-react-app'
+  uiSource: '/my-react-app'
   uiBuild: '$(uiSource)/build'
 
 pool:
